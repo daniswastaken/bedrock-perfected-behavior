@@ -15,6 +15,13 @@
         }
     ],
     "metadata": {
+        "authors": ["daniswastaken"],
         "product_type": "addon"
-    }
+    },
+    "dependencies": [
+        {
+            "uuid": "021db127-35f8-4a5b-85b1-35ef06db0db2",
+            "version": [1, 0, 0]
+        }
+    ]
 }
