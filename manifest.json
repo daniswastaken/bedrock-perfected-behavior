@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Bedrock Perfected",
+        "description": "Taking vanilla Minecraft to the next levels.",
+        "uuid": "8a4c9697-4587-413e-a2ad-bb09745bd263",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "63aa95d2-bc11-4cfc-b9e7-cb475e9c07ad",
+            "version": [1, 0, 0]
+        }
+    ],
+    "metadata": {
+        "product_type": "addon"
+    }
+}
