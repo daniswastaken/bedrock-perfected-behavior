@@ -2,7 +2,7 @@
 	"format_version": "1.21.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "bedrock_perfected:leather_horse_armor"
+			"identifier": "minecraft:leather_horse_armor"
 		},
 		"tags": [
 			"crafting_table"

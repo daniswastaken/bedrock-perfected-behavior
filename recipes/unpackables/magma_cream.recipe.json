@@ -2,24 +2,24 @@
 	"format_version": "1.21.0",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "bedrock_perfected:string"
+			"identifier": "bedrock_perfected:magma_cream"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"priority": -1,
+		"priority": 1,
 		"ingredients": [
 			{
-				"tag": "minecraft:wool"
+				"item": "minecraft:magma"
 			}
 		],
 		"unlock": [
 			{
-				"tag": "minecraft:wool"
+				"item": "minecraft:magma"
 			}
 		],
 		"result": {
-			"item": "minecraft:string",
+			"item": "minecraft:magma_cream",
 			"count": 4
 		}
 	}
