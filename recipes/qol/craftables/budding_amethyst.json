@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:budding_amethyst"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			" S ",
+			"SAS",
+            " S "
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:amethyst_shard"
+			},
+            "A": {
+				"item": "minecraft:amethyst_block"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:amethyst_shard"
+			},
+            {
+				"item": "minecraft:amethyst_block"
+			}
+		],
+		"result": {
+			"item": "minecraft:budding_amethyst"
+		}
+	}
+}

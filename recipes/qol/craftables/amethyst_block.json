@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:amethyst_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"SS",
+			"SS"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:amethyst_shard"
+			},
+            {
+				"item": "minecraft:amethyst_block"
+			}
+		],
+		"result": {
+			"item": "minecraft:amethyst_block"
+		}
+	}
+}
