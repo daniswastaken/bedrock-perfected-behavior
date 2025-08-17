@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:crying_obsidian"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"OOO",
+			"OTO",
+			"OOO"
+		],
+		"key": {
+			"O": {
+				"item": "minecraft:obsidian"
+			},
+			"T": {
+				"item": "minecraft:ghast_tear"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:obsidian"
+			},
+            {
+				"item": "minecraft:crying_obsidian"
+			},
+			{
+				"item": "minecraft:ghast_tear"
+			}
+		],
+		"result": {
+			"item": "minecraft:crying_obsidian"
+		}
+	}
+}

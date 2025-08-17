@@ -1,0 +1,42 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:shroomlight_crimson"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 0,
+		"pattern": [
+			"GB",
+			"BG"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:glowstone"
+			},
+			"B": {
+				"item": "minecraft:warped_wart_block"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:shroomlight"
+			},
+			{
+				"item": "minecraft:glowstone"
+			},
+            {
+				"item": "minecraft:nether_wart_block"
+			},
+			{
+				"item": "minecraft:warped_wart_block"
+			}
+		],
+		"result": {
+			"item": "minecraft:shroomlight",
+			"count": 4
+		}
+	}
+}

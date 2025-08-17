@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:bell"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"SSS",
+			"GGG",
+            "GNG"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:stick"
+			},
+            "N": {
+				"item": "minecraft:gold_nugget"
+			},
+			"G": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:stick"
+			},
+            {
+				"item": "minecraft:bell"
+			},
+            {
+				"item": "minecraft:gold_ingot"
+			},
+			{
+				"item": "minecraft:gold_nugget"
+			}
+		],
+		"result": {
+			"item": "minecraft:bell"
+		}
+	}
+}
