@@ -33,7 +33,8 @@
 			}
 		],
 		"result": {
-			"item": "minecraft:crying_obsidian"
+			"item": "minecraft:crying_obsidian",
+			"count": 8
 		}
 	}
 }

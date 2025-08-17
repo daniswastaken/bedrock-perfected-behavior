@@ -1,0 +1,11 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "bedrock_perfected:deadbush_cherry"
+        },
+        "tags": ["furnace"],
+        "input": "minecraft:cherry_sapling",
+        "output": "minecraft:deadbush"
+    }
+}

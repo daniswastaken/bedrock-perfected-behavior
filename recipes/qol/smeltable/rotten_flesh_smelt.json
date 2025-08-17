@@ -5,7 +5,7 @@
             "identifier": "bedrock_perfected:rotten_flesh_smelt"
         },
         "tags": ["smoker"],
-        "input": "minecraft:raw_iron_block",
+        "input": "minecraft:rotten_flesh",
         "output": "minecraft:leather"
     }
 }
