@@ -4,7 +4,7 @@
         "description": {
             "identifier": "bedrock_perfected:raw_iron_block"
         },
-        "tags": ["furnace", "blast_furnace"],
+        "tags": ["blast_furnace"],
         "input": "minecraft:raw_iron_block",
         "output": "minecraft:iron_block"
     }

@@ -1,0 +1,11 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "bedrock_perfected:raw_copper_block"
+        },
+        "tags": ["blast_furnace"],
+        "input": "minecraft:raw_copper_block",
+        "output": "minecraft:copper_block"
+    }
+}
