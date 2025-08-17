@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:reinforced_deepslate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"BDB",
+			"DDD",
+			"BDB"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:bone_block"
+			},
+			"D": {
+				"item": "minecraft:deepslate"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:deepslate"
+			},
+			{
+				"item": "minecraft:bone_block"
+			},
+            {
+				"item": "minecraft:bone"
+			}
+		],
+		"result": {
+			"item": "minecraft:reinforced_deepslate",
+			"count": 5
+		}
+	}
+}
