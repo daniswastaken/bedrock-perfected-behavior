@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:iron_trapdoor"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"II",
+			"II"
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_ingot"
+			}
+		],
+		"result": {
+			"item": "minecraft:iron_trapdoor",
+			"count": 2
+		}
+	}
+}
