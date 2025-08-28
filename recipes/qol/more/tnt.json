@@ -1,0 +1,37 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:tnt"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"GSG",
+			"SGS",
+            "GSG"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:gunpowder"
+			},
+            "S": {
+				"item": "minecraft:sand"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:gunpowder"
+			},
+            {
+                "item": "minecraft:sand"
+            }
+		],
+		"result": {
+			"item": "minecraft:tnt",
+			"count": 2
+		}
+	}
+}
