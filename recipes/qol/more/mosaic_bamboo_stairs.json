@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:bamboo_mosaic_stairs"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"PPP",
+			"PPP"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:bamboo_mosaic"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:bamboo_mosaic"
+			}
+		],
+		"result": {
+			"item": "minecraft:bamboo_mosaic_stairs",
+			"count": 6
+		}
+	}
+}

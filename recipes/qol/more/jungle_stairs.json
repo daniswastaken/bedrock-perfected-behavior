@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:jungle_stairs"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"PPP",
+			"PPP"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:jungle_planks"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:jungle_planks"
+			}
+		],
+		"result": {
+			"item": "minecraft:jungle_stairs",
+			"count": 6
+		}
+	}
+}
