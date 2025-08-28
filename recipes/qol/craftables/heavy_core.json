@@ -2,23 +2,29 @@
 	"format_version": "1.21.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "bedrock_perfected:totem_of_undying"
+			"identifier": "bedrock_perfected:heavy_core"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"priority": -1,
 		"pattern": [
-			"EGE",
-			"GGG",
-            " G "
+			"NNN",
+			"CWC",
+            "SSS"
 		],
 		"key": {
-			"G": {
-				"item": "minecraft:gold_block"
+			"N": {
+				"item": "minecraft:netherite_ingot"
 			},
-            "E": {
-				"item": "minecraft:emerald"
+            "W": {
+				"item": "minecraft:wind_charge"
+			},
+			"S": {
+				"item": "minecraft:polished_deepslate"
+			},
+			"C": {
+				"item": "minecraft:chiseled_deepslate"
 			}
 		},
 		"unlock": [
@@ -30,7 +36,7 @@
             }
 		],
 		"result": {
-			"item": "minecraft:totem_of_undying",
+			"item": "minecraft:heavy_core",
 			"count": 1
 		}
 	}
