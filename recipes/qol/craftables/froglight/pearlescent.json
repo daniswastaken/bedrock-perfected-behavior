@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:pearlescent_froglight"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"CPC",
+			"PSP",
+            "CPC"
+		],
+		"key": {
+            "P": {
+				"item": "minecraft:phantom_membrane"
+			},
+			"S": {
+				"item": "minecraft:shroomlight"
+			},
+			"C": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:shroomlight"
+			},
+            {
+                "item": "minecraft:amethyst_shard"
+            }
+		],
+		"result": {
+			"item": "minecraft:pearlescent_froglight",
+			"count": 4
+		}
+	}
+}
