@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "bedrock_perfected:exp_bottle"
+        },
+        "tags": ["crafting_table"],
+		"priority": -1,
+        "ingredients": [
+            {
+                "item": "minecraft:glass_bottle"
+			},
+			{
+				"item": "minecraft:sculk"
+            }
+        ],
+        "unlock": [
+			{
+				"item": "minecraft:glass_bottle"
+			},
+			{
+				"item": "minecraft:sculk"
+			}
+
+        ],
+        "result": {
+            "item": "minecraft:experience_bottle",
+            "count": 3
+        }
+    }
+}
