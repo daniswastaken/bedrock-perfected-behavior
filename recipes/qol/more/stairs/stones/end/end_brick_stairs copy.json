@@ -2,7 +2,7 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "minecraft:red_nether_brick_stairs"
+    "identifier": "minecraft:end_brick_stairs"
     },
 
     
@@ -14,17 +14,17 @@
     ],
     "key": {
       "#": {
-        "item": "minecraft:red_nether_brick"
+        "item": "minecraft:end_bricks"
       }
     },
 	"unlock": [
       {
-        "item": "minecraft:red_nether_brick"
+        "item": "minecraft:end_bricks"
       }
     ],
     "result": {
-      "item": "minecraft:red_nether_brick_stairs",
-      "count": 4
+      "item": "minecraft:end_brick_stairs",
+      "count": 6
     }
   }
 }
