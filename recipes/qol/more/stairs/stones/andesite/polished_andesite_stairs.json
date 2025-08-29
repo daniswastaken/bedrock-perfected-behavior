@@ -4,8 +4,7 @@
     "description": {
     "identifier": "minecraft:polished_andesite_stairs"
     },
-
-    
+    "priority": -1,
     "tags": [ "crafting_table" ],
     "pattern": [
       "#  ",

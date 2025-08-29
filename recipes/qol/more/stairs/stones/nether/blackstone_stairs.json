@@ -4,6 +4,7 @@
     "description": {
       "identifier": "minecraft:blackstone_stairs"
     },
+    "priority": -1,
     "tags": [ "crafting_table" ],
     "pattern": [
       "#  ",

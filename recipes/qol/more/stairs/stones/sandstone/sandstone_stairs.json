@@ -4,8 +4,7 @@
     "description": {
     "identifier": "minecraft:sandstone_stairs"
     },
-
-    
+    "priority": -1,
     "tags": [ "crafting_table" ],
     "pattern": [
       "#  ",

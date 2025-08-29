@@ -4,8 +4,7 @@
     "description": {
     "identifier": "minecraft:end_brick_stairs"
     },
-
-    
+    "priority": -1,
     "tags": [ "crafting_table" ],
     "pattern": [
       "#  ",
@@ -24,7 +23,7 @@
     ],
     "result": {
       "item": "minecraft:end_brick_stairs",
-      "count": 4
+      "count": 6
     }
   }
 }

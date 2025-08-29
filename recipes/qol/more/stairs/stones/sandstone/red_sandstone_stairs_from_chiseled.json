@@ -4,8 +4,7 @@
     "description": {
     "identifier": "minecraft:red_sandstone_stairs_from_chiseled"
     },
-
-    
+    "priority": -1,    
     "tags": [ "crafting_table" ],
     "pattern": [
       "#  ",

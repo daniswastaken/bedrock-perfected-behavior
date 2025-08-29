@@ -26,6 +26,6 @@
       "item": "minecraft:tuff_stairs",
       "count": 6
     },
-    "priority": 1
+    "priority": -1
   }
 }

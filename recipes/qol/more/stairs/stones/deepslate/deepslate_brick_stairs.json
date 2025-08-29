@@ -14,9 +14,9 @@
             "## ",
             "###"
         ],
-        "priority": 1,
+        "priority": -1,
         "result": {
-            "count": 4,
+            "count": 6,
             "item": "minecraft:deepslate_brick_stairs"
         },
         "unlock": [

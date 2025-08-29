@@ -4,8 +4,7 @@
     "description": {
     "identifier": "minecraft:polished_diorite_stairs"
     },
-
-    
+    "priority": -1,
     "tags": [ "crafting_table" ],
     "pattern": [
       "#  ",

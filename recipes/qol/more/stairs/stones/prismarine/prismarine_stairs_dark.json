@@ -4,8 +4,7 @@
     "description": {
     "identifier": "minecraft:prismarine_stairs_dark"
     },
-
-    
+    "priority": -1,
     "tags": [ "crafting_table" ],
     "pattern": [
       "#  ",

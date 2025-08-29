@@ -4,6 +4,7 @@
     "description": {
       "identifier": "minecraft:resin_brick_stairs"
     },
+    "priority": -1,
     "tags": [ "crafting_table" ],
     "pattern": [
       "#",
