@@ -9,7 +9,8 @@
 		],
 		"priority": -1,
 		"pattern": [
-			"PPP",
+			"P  ",
+			"PP ",
 			"PPP"
 		],
 		"key": {
