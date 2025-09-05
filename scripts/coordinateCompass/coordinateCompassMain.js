@@ -1,6 +1,6 @@
 import { system, world } from "@minecraft/server";
 
-export function coordinateCompass() {
+export default function coordinateCompass() {
     system.runInterval(() => {
     world.getPlayers().forEach(p => {
         const coords = { x: Math.floor(p.location.x), y: Math.floor(p.location.y), z: Math.floor(p.location.z) };

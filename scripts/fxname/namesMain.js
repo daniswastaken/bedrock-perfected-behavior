@@ -4,7 +4,7 @@ import fantasyNames from "./array/fantasyNames.js";
 
 const pickRandom = arr => arr[Math.floor(Math.random() * arr.length)];
 
-export function registerMobNaming() {
+export default function registerMobNaming() {
   world.afterEvents.entitySpawn.subscribe(event => {
     const mob = event.entity;
     if (!mob) return;
