@@ -22001,5 +22001,5 @@ const easterEggs = [
     "Nilou"
 ];
 
-const nameList = [...normalNames, ...easterEggs];
-export default nameList;
+const humanNameList = [...normalNames, ...easterEggs];
+export default humanNameList;
