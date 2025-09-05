@@ -1,5 +1,5 @@
 import { world } from "@minecraft/server";
-import nameList from "./array/nameList.js";
+import nameList from "./array/humanName.js";
 
 const pickRandom = arr => arr[Math.floor(Math.random() * arr.length)];
 
