@@ -16,18 +16,6 @@
             "version": [1, 0, 0]
         }
     ],
-    "subpacks": [
-        {
-            "name": "Experimental",
-            "folder_name": "experimental",
-            "memory_tier": 0
-        },
-        {
-            "name": "Release",
-            "folder_name": "release",
-            "memory_tier": 0
-        }
-    ],
     "metadata": {
         "authors": ["daniswastaken"],
         "product_type": "addon"
