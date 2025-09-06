@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:gravel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			"SF",
+			"FS"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:sand"
+			},
+			"F": {
+				"item": "minecraft:flint"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:sand"
+			},
+			{
+				"item": "minecraft:flint"
+			},
+            {
+                "item": "minecraft:gravel"
+            }
+            
+		],
+		"result": {
+			"item": "minecraft:gravel",
+			"count": 4
+		}
+	}
+}
