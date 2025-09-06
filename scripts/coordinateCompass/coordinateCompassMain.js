@@ -12,7 +12,7 @@ export default function coordinateCompass() {
 
 
         if (heldItem && heldItem.typeId === "minecraft:compass") {
-            hud.setActionBar(`Coords: ${coords.x}, ${coords.y}, ${coords.z}`);
+            hud.setActionBar(`§lCoords: §r§c${coords.x}, §a${coords.y}, §b${coords.z}`);
 
         }
     }
