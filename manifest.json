@@ -13,7 +13,7 @@
             "language": "javascript",
             "entry": "scripts/main.js",
             "uuid": "63aa95d2-bc11-4cfc-b9e7-cb475e9c07ad",
-            "version": [1, 0, 0]
+            "version": [1, 5, 0]
         }
     ],
     "metadata": {
@@ -23,7 +23,7 @@
     "dependencies": [
         {
             "uuid": "021db127-35f8-4a5b-85b1-35ef06db0db2",
-            "version": [1, 0, 0]
+            "version": [1, 5, 0]
         },
         {
             "module_name": "@minecraft/server",
