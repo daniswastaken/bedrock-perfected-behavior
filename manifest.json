@@ -4,7 +4,7 @@
         "name": "Bedrock Perfected",
         "description": "Taking vanilla Minecraft to the next level.",
         "uuid": "8a4c9697-4587-413e-a2ad-bb09745bd263",
-        "version": [1, 0, 0],
+        "version": [1, 5, 0],
         "min_engine_version": [1, 21, 0]
     },
     "modules": [
