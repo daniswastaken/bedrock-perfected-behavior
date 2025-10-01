@@ -35,7 +35,7 @@ export default function biomentry() {
 
             // Show only if different biome
             if (pretty !== prev) {
-                p.onScreenDisplay.setTitle(` ${pretty}`, {
+                p.onScreenDisplay.setTitle(` §l${pretty}`, {
                     fadeInDuration: 10,  // half a second (20 ticks = 1s)
                     stayDuration: 25,    // 2,5 seconds
                     fadeOutDuration: 10  // half a second fade out
