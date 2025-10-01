@@ -6,7 +6,7 @@ export default function damageMain() {
     const DAMAGE_DISPLAY_CONFIG = {
         maxViewDistance: 48,
         particleDuration: 1.0,
-        digitSpacing: 0.25,
+        digitSpacing: 0.14,
         verticalOffset: 1.3,
         maxDamageValue: 999,
         particleName: "bedrock_perfected:damage" // Your custom particle
@@ -67,10 +67,11 @@ export default function damageMain() {
             const viewDirection = viewer.getViewDirection();
 
             // Position slightly towards the viewer and above the entity
+            // Damage position
             return {
-                x: entityPos.x - (viewDirection.x * 1),
+                x: entityPos.x - (viewDirection.x * 0.5),
                 y: entityPos.y + DAMAGE_DISPLAY_CONFIG.verticalOffset,
-                z: entityPos.z - (viewDirection.z * 1)
+                z: entityPos.z - (viewDirection.z * 0.5)
             };
         }
 
@@ -131,7 +132,7 @@ export default function damageMain() {
 
                     const particlePos = {
                         x: centerPos.x + rightVector.x * horizontalOffset,
-                        y: centerPos.y + (Math.random() * 0.1 - 0.05), // Small random Y variation
+                        y: centerPos.y + 0.1, // Small random Y variation
                         z: centerPos.z + rightVector.z * horizontalOffset
                     };
 
