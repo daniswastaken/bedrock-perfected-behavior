@@ -4,8 +4,6 @@ import damageMain from "./damage/damageMain.js";
 
 import raycast from "./labs/raycast.js";
 
-biomentry();
-
 registerMobNaming();
 coordinateCompass();
 damageMain();
