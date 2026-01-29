@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:jigsaw_pool": {
+        "description": {
+            "identifier": "mystructure:unwell_pool"
+        },
+        "elements": [
+            {
+                "weight": 1,
+                "element": {
+                    "element_type": "single_pool_element",
+                    "location": "mystructure:unwell_jigsaw",
+                    "projection": "rigid",
+                    "processors": "minecraft:empty"
+                }
+            }
+        ]
+    }
+}
