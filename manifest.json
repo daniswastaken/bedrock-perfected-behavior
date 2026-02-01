@@ -37,6 +37,9 @@
             ]
         }
     ],
+    "capabilities": [
+        "pbr"
+    ],
     "metadata": {
         "authors": [
             "daniswastaken"
