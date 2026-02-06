@@ -1,63 +1,72 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "Bedrock Perfected 26.2.1",
-        "description": "Crafting recipe tweaks, new mechanics, and texture improvements designed to make Minecraft better.",
-        "uuid": "8a4c9697-4587-413e-a2ad-bb09745bd263",
-        "version": [
-            26,
-            2,
-            1
-        ],
-        "min_engine_version": [
-            1,
-            21,
-            130
-        ]
-    },
-    "modules": [
-        {
-            "type": "script",
-            "language": "javascript",
-            "entry": "scripts/main.js",
-            "uuid": "63aa95d2-bc11-4cfc-b9e7-cb475e9c07ad",
-            "version": [
-                26,
-                2,
-                1
-            ]
-        },
-        {
-            "type": "data",
-            "uuid": "430af5d4-bc11-4cfc-b9e7-cb475e9c07ad",
-            "version": [
-                26,
-                2,
-                1
-            ]
-        }
-    ],
-    "capabilities": [
-        "pbr"
-    ],
-    "metadata": {
-        "authors": [
-            "daniswastaken"
-        ],
-        "product_type": "addon"
-    },
-    "dependencies": [
-        {
-            "uuid": "021db127-35f8-4a5b-85b1-35ef06db0db2",
-            "version": [
-                26,
-                2,
-                1
-            ]
-        },
-        {
-            "module_name": "@minecraft/server",
-            "version": "2.4.0"
-        }
-    ]
+	"format_version": 2,
+	"header": {
+		"name": "Bedrock Perfected 26.2.1",
+		"description": "Crafting recipe tweaks, new mechanics, and texture improvements designed to make Minecraft better.",
+		"uuid": "8a4c9697-4587-413e-a2ad-bb09745bd263",
+		"version": [
+			26,
+			2,
+			1
+		],
+		"min_engine_version": [
+			1,
+			21,
+			130
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "63aa95d2-bc11-4cfc-b9e7-cb475e9c07ad",
+			"version": [
+				26,
+				2,
+				1
+			]
+		},
+		{
+			"type": "data",
+			"uuid": "430af5d4-bc11-4cfc-b9e7-cb475e9c07ad",
+			"version": [
+				26,
+				2,
+				1
+			]
+		}
+	],
+	"capabilities": [
+		"pbr"
+	],
+	"metadata": {
+		"authors": [
+			"daniswastaken"
+		],
+		"product_type": "addon",
+		"generated_with": {
+			"blockbench_item_wizard": [
+				"1.2.4"
+			]
+		}
+	},
+	"dependencies": [
+		{
+			"uuid": "021db127-35f8-4a5b-85b1-35ef06db0db2",
+			"version": [
+				26,
+				2,
+				1
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.4.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	]
 }
