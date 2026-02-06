@@ -27,16 +27,25 @@ export function updateBiomeNotifier(player, prevBiomes) {
         pretty = "Nether Wastes";
     }
 
+    let dimensionName = "§qThe Overworld";
+    if (dim.id === "minecraft:nether") {
+        dimensionName = "§mThe Nether";
+    } else if (dim.id === "minecraft:the_end") {
+        dimensionName = "§uThe End";
+    }
+
+    // §l
     if (pretty !== prev) {
-        player.onScreenDisplay.setTitle(`§l${pretty}`, {
+        player.onScreenDisplay.setTitle(`${pretty}`, {
+            subtitle: `${dimensionName}`,
             fadeInDuration: 10,
             stayDuration: 25,
             fadeOutDuration: 10
         });
         prevBiomes.set(player.name, pretty);
-        player.playSound("random.levelup", {
-            volume: 1.0,
-            pitch: 1.0
+        player.playSound("random.toast", {
+            volume: 0.1,
+            pitch: 0.5
         });
     }
 }
