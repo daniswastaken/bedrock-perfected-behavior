@@ -7,6 +7,7 @@ import { handleMobNaming } from "./fxname/namesMain.js";
 import { updateCoordinateCompass } from "./coordinateCompass/coordinateCompassMain.js";
 import { handleDamageDisplay } from "./damage/damageMain.js";
 import { updateBiomeNotifier } from "./biomeNotifier/biomeNotifier.js";
+import { initializeStarterKits } from "./starterKits/starterKits.js"; // Import starter kits
 
 // Persistant state for biome notifier
 const playerBiomeMap = new Map();
@@ -50,5 +51,8 @@ system.runInterval(() => {
         }
     }
 }, 50);
+
+// Initialize Starter Kits
+initializeStarterKits();
 
 
