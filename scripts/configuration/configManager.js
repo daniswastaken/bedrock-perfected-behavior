@@ -1,8 +1,6 @@
 import { world } from "@minecraft/server";
 
 export const FEATURES = {
-    MOB_NAMING: "mobNaming",
-    COORDINATE_COMPASS: "coordinateCompass",
     DAMAGE_DISPLAY: "damageDisplay",
     BIOME_NOTIFIER: "biomeNotifier"
 };

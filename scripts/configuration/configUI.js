@@ -20,7 +20,7 @@ export function showConfigUI(player) {
         ConfigManager.setEnabled(player, FEATURES.DAMAGE_DISPLAY, newDamageDisplay);
         ConfigManager.setEnabled(player, FEATURES.BIOME_NOTIFIER, newBiomeNotifier);
 
-        player.sendMessage("§aConfiguration updated! Changes take effect immediately.");
+        player.sendMessage("§l[Bedrock Perfected] §r§aConfiguration updated! Changes take effect immediately.");
     });
 }
 
