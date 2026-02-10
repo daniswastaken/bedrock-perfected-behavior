@@ -8,6 +8,7 @@ import { updateCoordinateCompass } from "./coordinateCompass/coordinateCompassMa
 import { handleDamageDisplay } from "./damage/damageMain.js";
 import { updateBiomeNotifier } from "./biomeNotifier/biomeNotifier.js";
 import { initializeStarterKits } from "./starterKits/starterKits.js"; // Import starter kits
+import { initializeCityNotifier } from "./cityNotifier/cityNotifier.js";
 
 // Persistant state for biome notifier
 const playerBiomeMap = new Map();
@@ -54,5 +55,8 @@ system.runInterval(() => {
 
 // Initialize Starter Kits
 initializeStarterKits();
+
+// Initialize City Notifier
+initializeCityNotifier();
 
 
