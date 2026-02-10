@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:addon_configuration"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			" N ",
+			"NIN",
+			" N "
+		],
+		"key": {
+			"N": {
+				"item": "minecraft:iron_nugget"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_ingot"
+			},
+			{
+				"item": "minecraft:iron_nugget"
+			}
+		],
+		"result": {
+			"item": "bedrock_perfected:addon_configuration"
+		}
+	}
+}

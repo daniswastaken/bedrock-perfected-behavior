@@ -1,0 +1,42 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bedrock_perfected:scroll_of_the_hearth"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": -1,
+		"pattern": [
+			" F ",
+			"GPG",
+			" I "
+		],
+		"key": {
+			"F": {
+				"item": "minecraft:feather"
+			},
+			"I": {
+				"item": "minecraft:ink_sac"
+			},
+			"G": {
+				"item": "minecraft:gold_nugget"
+			},
+			"P": {
+				"item": "minecraft:paper"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:gold_ingot"
+			},
+			{
+				"item": "minecraft:paper"
+			}
+		],
+		"result": {
+			"item": "bedrock_perfected:scroll_of_the_hearth"
+		}
+	}
+}
