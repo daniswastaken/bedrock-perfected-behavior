@@ -111,14 +111,14 @@ function openAddSettlementForm(player) {
 
             settlementCache.set(settlementId, settlementData);
             saveSettlements();
-            player.sendMessage(`§a[Bedrock Perfected] Settlement '${settlementId}' created at [${x}, ${z}] with size ${rx}x${rz}.`);
+            player.sendMessage(`§l[Bedrock Perfected] §r§aSettlement '${settlementId}' created at [${x}, ${z}] with size ${rx}x${rz}.`);
         });
 }
 
 function openRemoveSettlementForm(player) {
     const settlements = Array.from(settlementCache.keys());
     if (settlements.length === 0) {
-        player.sendMessage("§e[Bedrock Perfected] No settlements to remove.");
+        player.sendMessage("§l[Bedrock Perfected] §r§eNo settlements to remove.");
         return;
     }
 
@@ -133,9 +133,9 @@ function openRemoveSettlementForm(player) {
 
             if (settlementCache.delete(settlementId)) {
                 saveSettlements();
-                player.sendMessage(`§a[Bedrock Perfected] Settlement '${settlementId}' removed.`);
+                player.sendMessage(`§l[Bedrock Perfected] §r§cSettlement '${settlementId}' removed.`);
             } else {
-                player.sendMessage(`§c[Bedrock Perfected] Error: Could not remove settlement.`);
+                player.sendMessage(`§l[Bedrock Perfected] §r§cError: Could not remove settlement.`);
             }
         });
 }
@@ -147,9 +147,9 @@ function listSettlements(player) {
     }
 
     if (settlements.length === 0) {
-        player.sendMessage(`§e[Bedrock Perfected] No settlements registered.`);
+        player.sendMessage(`§l[Bedrock Perfected] §r§eNo settlements registered.`);
     } else {
-        player.sendMessage(`§a[Bedrock Perfected] Registered Settlements:\n${settlements.join("\n")}`);
+        player.sendMessage(`§l[Bedrock Perfected] §r§aRegistered Settlements:\n${settlements.join("\n")}`);
     }
 }
 
