@@ -23,8 +23,8 @@
                         "targets": [
                             "minecraft:plains"
                         ],
-                        "amount": 0.15,
-                        "noise_frequency_scale": 0.6
+                        "amount": 0.08,
+                        "noise_frequency_scale": 0.5
                     }
                 ]
             },
