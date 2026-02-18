@@ -1,41 +1,12 @@
 {
     "format_version": "1.13.0",
-    "minecraft:growing_plant_feature": {
+    "minecraft:snap_to_surface_feature": {
         "description": {
             "identifier": "bedrock_perfected:sunflower_fields_feature"
         },
-        "height_distribution": [
-            [
-                {
-                    "range_min": 2,
-                    "range_max": 2
-                },
-                2
-            ]
-        ],
-        "growth_direction": "UP",
-        "body_blocks": [
-            [
-                {
-                    "name": "minecraft:sunflower",
-                    "states": {
-                        "upper_block_bit": false
-                    }
-                },
-                1
-            ]
-        ],
-        "head_blocks": [
-            [
-                {
-                    "name": "minecraft:sunflower",
-                    "states": {
-                        "upper_block_bit": true
-                    }
-                },
-                1
-            ]
-        ],
-        "allow_water": false
+        "feature_to_snap": "bedrock_perfected:sunflower_growing_plant_feature",
+        "surface": "floor",
+        "vertical_search_range": 12,
+        "allow_underwater_placement": false
     }
 }
