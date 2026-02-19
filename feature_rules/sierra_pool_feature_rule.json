@@ -16,10 +16,10 @@
             ]
         },
         "distribution": {
-            "iterations": "math.random_integer(0, 1)",
+            "iterations": "math.random_integer(1, 2)",
             "scatter_chance": {
                 "numerator": 1,
-                "denominator": 5
+                "denominator": 4
             },
             "x": {
                 "distribution": "uniform",

@@ -21,10 +21,12 @@
                     {
                         "dimension": "minecraft:overworld",
                         "targets": [
-                            "minecraft:extreme_hills"
+                            "minecraft:extreme_hills",
+                            "minecraft:extreme_hills_mutated",
+                            "minecraft:extreme_hills_plus_trees"
                         ],
-                        "amount": 0.18,
-                        "noise_frequency_scale": 0.4
+                        "amount": 0.14,
+                        "noise_frequency_scale": 0.5
                     }
                 ]
             },
@@ -85,7 +87,7 @@
                         "materials": {
                             "top_material": "minecraft:calcite"
                         },
-                        "noise_frequency_scale": 0.12,
+                        "noise_frequency_scale": 0.13,
                         "noise_range": [
                             0.55,
                             1.0
@@ -118,8 +120,7 @@
                     "animal",
                     "monster",
                     "overworld",
-                    "sierra",
-                    "extreme_hills"
+                    "sierra"
                 ]
             }
         }
