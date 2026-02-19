@@ -1,0 +1,23 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:sierra_band_orange_feature"
+        },
+        "places_block": "minecraft:orange_terracotta",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_replace": [
+            "minecraft:yellow_terracotta",
+            "minecraft:orange_terracotta",
+            "minecraft:blackstone",
+            "minecraft:smooth_basalt",
+            "minecraft:calcite",
+            "minecraft:stone",
+            "minecraft:gravel",
+            "minecraft:dirt",
+            "minecraft:grass_block",
+            "minecraft:clay"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:sierra_band_calcite_scatter_feature"
+        },
+        "iterations": 96,
+        "x": {
+            "distribution": "gaussian",
+            "extent": [
+                -4,
+                4
+            ]
+        },
+        "y": {
+            "distribution": "gaussian",
+            "extent": [
+                -2,
+                2
+            ]
+        },
+        "z": {
+            "distribution": "gaussian",
+            "extent": [
+                -4,
+                4
+            ]
+        },
+        "coordinate_eval_order": "zyx",
+        "places_feature": "bedrock_perfected:sierra_band_calcite_feature"
+    }
+}

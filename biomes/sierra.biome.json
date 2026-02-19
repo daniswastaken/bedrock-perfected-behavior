@@ -1,0 +1,127 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:biome": {
+        "description": {
+            "identifier": "bedrock_perfected:sierra"
+        },
+        "components": {
+            "minecraft:climate": {
+                "downfall": 0.18,
+                "snow_accumulation": [
+                    0.0,
+                    0.125
+                ],
+                "temperature": 0.72
+            },
+            "minecraft:overworld_height": {
+                "noise_type": "mountains"
+            },
+            "minecraft:replace_biomes": {
+                "replacements": [
+                    {
+                        "dimension": "minecraft:overworld",
+                        "targets": [
+                            "minecraft:extreme_hills"
+                        ],
+                        "amount": 0.18,
+                        "noise_frequency_scale": 0.4
+                    }
+                ]
+            },
+            "minecraft:surface_builder": {
+                "builder": {
+                    "type": "minecraft:overworld",
+                    "sea_floor_depth": 6,
+                    "sea_floor_material": "minecraft:blackstone",
+                    "foundation_material": "minecraft:calcite",
+                    "mid_material": "minecraft:orange_terracotta",
+                    "top_material": "minecraft:orange_terracotta",
+                    "sea_material": "minecraft:water"
+                }
+            },
+            "minecraft:surface_material_adjustments": {
+                "adjustments": [
+                    {
+                        "materials": {
+                            "top_material": "minecraft:yellow_terracotta"
+                        },
+                        "noise_frequency_scale": 0.12,
+                        "noise_range": [
+                            -1.0,
+                            -0.88
+                        ]
+                    },
+                    {
+                        "materials": {
+                            "top_material": "minecraft:orange_terracotta"
+                        },
+                        "noise_frequency_scale": 0.12,
+                        "noise_range": [
+                            -0.88,
+                            -0.3
+                        ]
+                    },
+                    {
+                        "materials": {
+                            "top_material": "minecraft:blackstone"
+                        },
+                        "noise_frequency_scale": 0.16,
+                        "noise_range": [
+                            -0.3,
+                            0.2
+                        ]
+                    },
+                    {
+                        "materials": {
+                            "top_material": "minecraft:smooth_basalt"
+                        },
+                        "noise_frequency_scale": 0.14,
+                        "noise_range": [
+                            0.2,
+                            0.55
+                        ]
+                    },
+                    {
+                        "materials": {
+                            "top_material": "minecraft:calcite"
+                        },
+                        "noise_frequency_scale": 0.12,
+                        "noise_range": [
+                            0.55,
+                            1.0
+                        ]
+                    },
+                    {
+                        "materials": {
+                            "top_material": "minecraft:calcite"
+                        },
+                        "noise_frequency_scale": 0.28,
+                        "noise_range": [
+                            0.18,
+                            0.34
+                        ]
+                    },
+                    {
+                        "materials": {
+                            "mid_material": "minecraft:calcite"
+                        },
+                        "noise_frequency_scale": 0.08,
+                        "noise_range": [
+                            0.58,
+                            1.0
+                        ]
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "animal",
+                    "monster",
+                    "overworld",
+                    "sierra",
+                    "extreme_hills"
+                ]
+            }
+        }
+    }
+}
