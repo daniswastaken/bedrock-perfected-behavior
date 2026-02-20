@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bedrock_perfected:selensoil",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.75
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.6
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "selensoil",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:light_dampening": 15,
+			"minecraft:map_color": "#a9c8ff",
+			"tag:minecraft:is_shovel_item_destructible": {}
+		}
+	}
+}

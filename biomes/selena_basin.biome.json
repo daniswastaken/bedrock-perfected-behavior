@@ -23,7 +23,7 @@
                         "targets": [
                             "minecraft:meadow"
                         ],
-                        "amount": 0.08,
+                        "amount": 1.0,
                         "noise_frequency_scale": 0.05
                     }
                 ]
@@ -34,8 +34,8 @@
                     "sea_floor_depth": 5,
                     "sea_floor_material": "bedrock_perfected:selestone",
                     "foundation_material": "bedrock_perfected:selestone",
-                    "mid_material": "bedrock_perfected:selestone",
-                    "top_material": "bedrock_perfected:selestone",
+                    "mid_material": "bedrock_perfected:selensoil",
+                    "top_material": "bedrock_perfected:grassena",
                     "sea_material": "minecraft:water"
                 }
             },
