@@ -26,7 +26,8 @@
 		"authors": ["daniswastaken"],
 		"product_type": "addon",
 		"generated_with": {
-			"blockbench_item_wizard": ["1.2.4"]
+			"blockbench_item_wizard": ["1.2.4"],
+			"blockbench_block_wizard": ["1.6.1"]
 		}
 	},
 	"dependencies": [
