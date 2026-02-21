@@ -10,8 +10,16 @@
 		"components": {
 			"minecraft:collision_box": false,
 			"minecraft:selection_box": {
-				"origin": [-4, 0, -4],
-				"size": [8, 16, 8]
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
 			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0
@@ -50,6 +58,24 @@
 					},
 					"steps": 10
 				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"bedrock_perfected:grassena",
+							"bedrock_perfected:selensoil",
+							"bedrock_perfected:selestone",
+							"minecraft:grass",
+							"minecraft:grass_block",
+							"minecraft:dirt",
+							"minecraft:podzol"
+						]
+					}
+				]
 			}
 		}
 	}
