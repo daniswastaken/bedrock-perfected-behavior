@@ -1,0 +1,42 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:lunafir_tree_feature"
+        },
+        "features": [
+            [
+                "bedrock_perfected:lunafir_tree_1_feature",
+                1
+            ],
+            [
+                "bedrock_perfected:lunafir_tree_2_feature",
+                1
+            ],
+            [
+                "bedrock_perfected:lunafir_tree_3_feature",
+                1
+            ],
+            [
+                "bedrock_perfected:lunafir_tree_4_feature",
+                1
+            ],
+            [
+                "bedrock_perfected:lunafir_tree_5_feature",
+                1
+            ],
+            [
+                "bedrock_perfected:lunafir_tree_6_feature",
+                1
+            ],
+            [
+                "bedrock_perfected:lunafir_tree_7_feature",
+                1
+            ],
+            [
+                "bedrock_perfected:lunafir_tree_8_feature",
+                1
+            ]
+        ]
+    }
+}
