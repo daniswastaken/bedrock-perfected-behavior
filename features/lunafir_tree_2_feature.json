@@ -11,11 +11,7 @@
             "grounded": {},
             "block_intersection": {
                 "block_whitelist": [
-                    "minecraft:air",
-                    "minecraft:leaves",
-                    "minecraft:log",
-                    "bedrock_perfected:lunafir_leaves",
-                    "bedrock_perfected:lunafir_log"
+                    "minecraft:air"
                 ]
             }
         }
