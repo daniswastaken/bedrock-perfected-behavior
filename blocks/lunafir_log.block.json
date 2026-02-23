@@ -30,7 +30,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "lunafir_log",
-					"render_method": "alpha_test"
+					"render_method": "opaque"
 				}
 			},
 			"minecraft:light_dampening": 15,
