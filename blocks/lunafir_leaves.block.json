@@ -40,6 +40,7 @@
 			},
 			"minecraft:light_dampening": 12,
 			"minecraft:map_color": "#c8b88b",
+			"minecraft:loot": "loot_tables/blocks/lunafir_leaves.json",
 			"tag:minecraft:is_shears_item_destructible": {},
 			"minecraft:liquid_detection": {
 				"detection_rules": [

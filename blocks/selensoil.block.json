@@ -25,6 +25,7 @@
 			},
 			"minecraft:light_dampening": 15,
 			"minecraft:map_color": "#a9c8ff",
+			"minecraft:loot": "loot_tables/blocks/selensoil.json",
 			"tag:minecraft:is_shovel_item_destructible": {}
 		}
 	}

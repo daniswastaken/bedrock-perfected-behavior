@@ -9,7 +9,9 @@
 			},
 			"traits": {
 				"minecraft:placement_direction": {
-					"enabled_states": ["minecraft:facing_direction"]
+					"enabled_states": [
+						"minecraft:facing_direction"
+					]
 				}
 			}
 		},
@@ -35,6 +37,7 @@
 			},
 			"minecraft:light_dampening": 15,
 			"minecraft:map_color": "#decee5",
+			"minecraft:loot": "loot_tables/blocks/lunafir_log.json",
 			"tag:minecraft:is_axe_item_destructible": {}
 		},
 		"permutations": [
@@ -42,7 +45,11 @@
 				"condition": "q.block_state('minecraft:facing_direction') == 'up' || q.block_state('minecraft:facing_direction') == 'down' ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 0, 0]
+						"rotation": [
+							0,
+							0,
+							0
+						]
 					}
 				}
 			},
@@ -50,7 +57,11 @@
 				"condition": "q.block_state('minecraft:facing_direction') == 'east' || q.block_state('minecraft:facing_direction') == 'west' ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 0, 90]
+						"rotation": [
+							0,
+							0,
+							90
+						]
 					}
 				}
 			},
@@ -58,7 +69,11 @@
 				"condition": "q.block_state('minecraft:facing_direction') == 'north' || q.block_state('minecraft:facing_direction') == 'south' ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [90, 0, 0]
+						"rotation": [
+							90,
+							0,
+							0
+						]
 					}
 				}
 			}

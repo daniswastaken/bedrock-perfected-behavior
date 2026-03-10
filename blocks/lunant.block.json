@@ -43,6 +43,7 @@
 			"minecraft:light_emission": 10,
 			"minecraft:light_dampening": 0,
 			"minecraft:map_color": "#8b94ee",
+			"minecraft:loot": "loot_tables/blocks/lunant.json",
 			"minecraft:random_offset": {
 				"x": {
 					"range": {
