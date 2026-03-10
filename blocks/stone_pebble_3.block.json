@@ -2,7 +2,7 @@
 	"format_version": "1.21.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "bedrock_perfected:stone_pebble_1",
+			"identifier": "bedrock_perfected:stone_pebble_3",
 			"menu_category": {
 				"category": "nature"
 			},
@@ -23,9 +23,9 @@
 					-8
 				],
 				"size": [
-					14,
+					16,
 					2,
-					14
+					16
 				]
 			},
 			"minecraft:destructible_by_mining": {
@@ -34,16 +34,16 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 2.5
 			},
-			"minecraft:geometry": "geometry.stone_pebble_1",
+			"minecraft:geometry": "geometry.stone_pebble_3",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "stone_pebble_1",
+					"texture": "stone_pebble_3",
 					"render_method": "opaque",
 					"ambient_occlusion": true
 				}
 			},
-			"minecraft:map_color": "#5d5d5d",
-			"minecraft:loot": "loot_tables/blocks/stone_pebble_1.json",
+			"minecraft:map_color": "#ffffff",
+			"minecraft:loot": "loot_tables/blocks/stone_pebble_3.json",
 			"minecraft:random_offset": {
 				"x": {
 					"range": {

@@ -25,7 +25,8 @@
 				}
 			},
 			"minecraft:light_dampening": 15,
-			"minecraft:map_color": "#7fa2d2"
+			"minecraft:map_color": "#7fa2d2",
+			"tag:minecraft:is_pickaxe_item_destructible": {}
 		}
 	}
 }
