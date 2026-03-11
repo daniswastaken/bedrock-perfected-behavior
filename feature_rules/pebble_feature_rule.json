@@ -6,31 +6,31 @@
             "places_feature": "bedrock_perfected:pebble_scatter_feature"
         },
         "conditions": {
-            "placement_pass": "after_surface_pass",
+            "placement_pass": "final_pass",
             "minecraft:biome_filter": [
                 {
-                    "any_of": [
+                    "all_of": [
                         {
                             "test": "has_biome_tag",
                             "operator": "==",
-                            "value": "forest"
+                            "value": "overworld"
                         },
                         {
                             "test": "has_biome_tag",
-                            "operator": "==",
-                            "value": "plains"
+                            "operator": "!=",
+                            "value": "frozen"
                         },
                         {
                             "test": "has_biome_tag",
-                            "operator": "==",
-                            "value": "river"
+                            "operator": "!=",
+                            "value": "ice"
                         }
                     ]
                 }
             ]
         },
         "distribution": {
-            "iterations": "math.random_integer(4, 12)",
+            "iterations": "math.random_integer(4, 8)",
             "x": {
                 "distribution": "uniform",
                 "extent": [

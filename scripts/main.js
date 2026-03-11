@@ -9,6 +9,7 @@ import { handleDamageDisplay } from "./damage/damageMain.js";
 import { updateBiomeNotifier } from "./biomeNotifier/biomeNotifier.js";
 import { initializeStarterKits } from "./starterKits/starterKits.js"; // Import starter kits
 import { initializeSettlementNotifier } from "./cityNotifier/cityNotifier.js";
+import { initializePebbleStacking } from "./pebbles/pebbleStacking.js";
 
 // Persistant state for biome notifier
 const playerBiomeMap = new Map();
@@ -59,4 +60,5 @@ initializeStarterKits();
 // Initialize City Notifier
 initializeSettlementNotifier();
 
-
+// Initialize Pebble Stacking 
+initializePebbleStacking();

@@ -4,7 +4,7 @@
         "description": {
             "identifier": "bedrock_perfected:pebble_scatter_feature"
         },
-        "places_feature": "bedrock_perfected:pebble_variation_feature",
+        "places_feature": "bedrock_perfected:pebble_snap_feature",
         "x": 0,
         "y": 0,
         "z": 0,
