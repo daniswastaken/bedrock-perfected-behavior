@@ -12,8 +12,8 @@
         },
         "enforce_survivability_rules": true,
         "may_replace": [
-            "minecraft:air"
-        ],
+            "minecraft:air", "minecraft:snow_layer"],
         "enforce_placement_rules": false
     }
 }
+
