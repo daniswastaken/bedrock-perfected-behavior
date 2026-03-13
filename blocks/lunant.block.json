@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.100",
+	"format_version": "1.21.130",
 	"minecraft:block": {
 		"description": {
 			"identifier": "bedrock_perfected:lunant",
@@ -21,6 +21,9 @@
 					8
 				]
 			},
+			"minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0
 			},
