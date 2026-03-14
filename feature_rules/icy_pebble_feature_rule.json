@@ -20,21 +20,6 @@
                                 {
                                     "test": "has_biome_tag",
                                     "operator": "==",
-                                    "value": "frozen"
-                                },
-                                {
-                                    "test": "has_biome_tag",
-                                    "operator": "==",
-                                    "value": "ice"
-                                },
-                                {
-                                    "test": "has_biome_tag",
-                                    "operator": "==",
-                                    "value": "cold"
-                                },
-                                {
-                                    "test": "has_biome_tag",
-                                    "operator": "==",
                                     "value": "selena_basin"
                                 }
                             ]
