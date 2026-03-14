@@ -10,6 +10,7 @@ import { updateBiomeNotifier } from "./biomeNotifier/biomeNotifier.js";
 import { initializeStarterKits } from "./starterKits/starterKits.js"; // Import starter kits
 import { initializeSettlementNotifier } from "./cityNotifier/cityNotifier.js";
 import { initializePebbleStacking } from "./pebbles/pebbleStacking.js";
+import "./blocks/leafDecay.js";
 
 // Persistant state for biome notifier
 const playerBiomeMap = new Map();

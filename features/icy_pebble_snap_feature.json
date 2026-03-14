@@ -4,7 +4,7 @@
         "description": {
             "identifier": "bedrock_perfected:icy_pebble_snap_feature"
         },
-        "feature_to_snap": "bedrock_perfected:icy_pebble_variation_feature",
+        "feature_to_snap": "bedrock_perfected:icy_pebble_air_search_feature",
         "surface": "floor",
         "vertical_search_range": 4,
         "allow_air_placement": true,
@@ -15,10 +15,7 @@
             {"name": "minecraft:coarse_dirt"},
             {"name": "minecraft:gravel"},
             {"name": "minecraft:stone"},
-            {"name": "minecraft:snow"},
-            {"name": "minecraft:ice"},
-            {"name": "minecraft:packed_ice"},
-            {"name": "minecraft:blue_ice"}
+            {"name": "bedrock_perfected:grassena"}
         ]
     }
 }
