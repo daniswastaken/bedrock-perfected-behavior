@@ -5,7 +5,7 @@ export function initializePebbleStacking() {
         const { block, dimension, player } = e;
         const blockBelow = block.below();
 
-        if (blockBelow && blockBelow.typeId.startsWith("bedrock_perfected:stone_pebble_")) {
+        if (blockBelow && (blockBelow.typeId.startsWith("bedrock_perfected:stone_pebble_") || blockBelow.typeId.startsWith("bedrock_perfected:icy_pebble_"))) {
             const typeId = block.typeId;
             const nonStackableTypes = [
                 "minecraft:snow_layer",

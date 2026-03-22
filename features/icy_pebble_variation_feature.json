@@ -1,0 +1,30 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:icy_pebble_variation_feature"
+        },
+        "features": [
+            ["bedrock_perfected:icy_pebble_1_north", 1],
+            ["bedrock_perfected:icy_pebble_1_south", 1],
+            ["bedrock_perfected:icy_pebble_1_east", 1],
+            ["bedrock_perfected:icy_pebble_1_west", 1],
+            ["bedrock_perfected:icy_pebble_2_north", 1],
+            ["bedrock_perfected:icy_pebble_2_south", 1],
+            ["bedrock_perfected:icy_pebble_2_east", 1],
+            ["bedrock_perfected:icy_pebble_2_west", 1],
+            ["bedrock_perfected:icy_pebble_3_north", 1],
+            ["bedrock_perfected:icy_pebble_3_south", 1],
+            ["bedrock_perfected:icy_pebble_3_east", 1],
+            ["bedrock_perfected:icy_pebble_3_west", 1],
+            ["bedrock_perfected:icy_pebble_4_north", 1],
+            ["bedrock_perfected:icy_pebble_4_south", 1],
+            ["bedrock_perfected:icy_pebble_4_east", 1],
+            ["bedrock_perfected:icy_pebble_4_west", 1],
+            ["bedrock_perfected:icy_pebble_5_north", 1],
+            ["bedrock_perfected:icy_pebble_5_south", 1],
+            ["bedrock_perfected:icy_pebble_5_east", 1],
+            ["bedrock_perfected:icy_pebble_5_west", 1]
+        ]
+    }
+}

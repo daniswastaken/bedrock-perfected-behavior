@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:snap_to_surface_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:selena_vanilla_bush_feature"
+        },
+        "feature_to_snap": "bedrock_perfected:selena_vanilla_bush_block_feature",
+        "vertical_search_range": 64,
+        "surface": "floor",
+        "allow_air_placement": true,
+        "allow_underwater_placement": false,
+        "allowed_surface_blocks": [
+            {
+                "name": "bedrock_perfected:grassena"
+            }
+        ]
+    }
+}

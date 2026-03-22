@@ -2,8 +2,8 @@
     "format_version": "1.13.0",
     "minecraft:feature_rules": {
         "description": {
-            "identifier": "bedrock_perfected:pebble_feature_rule",
-            "places_feature": "bedrock_perfected:pebble_scatter_feature"
+            "identifier": "bedrock_perfected:icy_pebble_feature_rule",
+            "places_feature": "bedrock_perfected:icy_pebble_scatter_feature"
         },
         "conditions": {
             "placement_pass": "final_pass",
@@ -16,19 +16,13 @@
                             "value": "overworld"
                         },
                         {
-                            "test": "has_biome_tag",
-                            "operator": "!=",
-                            "value": "frozen"
-                        },
-                        {
-                            "test": "has_biome_tag",
-                            "operator": "!=",
-                            "value": "ice"
-                        },
-                        {
-                            "test": "has_biome_tag",
-                            "operator": "!=",
-                            "value": "cold"
+                            "any_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "selena_basin"
+                                }
+                            ]
                         }
                     ]
                 }

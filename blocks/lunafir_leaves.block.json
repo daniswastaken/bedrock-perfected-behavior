@@ -6,9 +6,19 @@
 			"menu_category": {
 				"category": "nature",
 				"group": "minecraft:itemGroup.name.leaves"
+			},
+			"states": {
+				"bedrock_perfected:playerPlaced": [
+					false,
+					true
+				]
 			}
 		},
 		"components": {
+			"bedrock_perfected:leaf_decay": {},
+			"minecraft:tick": {
+				"interval_range": [100, 120]
+			},
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:destructible_by_mining": {

@@ -2,7 +2,7 @@
     "format_version": "1.21.130",
     "minecraft:block": {
         "description": {
-            "identifier": "bedrock_perfected:stone_pebble_1",
+            "identifier": "bedrock_perfected:icy_pebble_1",
             "menu_category": {
                 "category": "nature"
             },
@@ -37,16 +37,16 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 2.5
             },
-            "minecraft:geometry": "geometry.stone_pebble_1",
+            "minecraft:geometry": "geometry.icy_pebble_1",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "stone_pebble_1",
+                    "texture": "icy_pebble_1",
                     "render_method": "opaque",
                     "ambient_occlusion": true
                 }
             },
             "minecraft:map_color": "#5d5d5d",
-            "minecraft:loot": "loot_tables/blocks/stone_pebble_1.json",
+            "minecraft:loot": "loot_tables/blocks/icy_pebble_1.json",
             "minecraft:random_offset": {
                 "x": {
                     "range": {

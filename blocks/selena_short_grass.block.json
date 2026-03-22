@@ -1,8 +1,8 @@
 {
-	"format_version": "1.21.130",
+	"format_version": "1.21.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "bedrock_perfected:lunant",
+			"identifier": "bedrock_perfected:selena_short_grass",
 			"menu_category": {
 				"category": "nature"
 			}
@@ -17,13 +17,10 @@
 				],
 				"size": [
 					8,
-					16,
+					12,
 					8
 				]
 			},
-			"minecraft:precipitation_interactions": {
-                "precipitation_behavior": "none"
-            },
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0
 			},
@@ -37,16 +34,14 @@
 			"minecraft:geometry": "geometry.lunant",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "lunant",
+					"texture": "selena_short_grass",
 					"render_method": "alpha_test",
 					"face_dimming": false,
 					"ambient_occlusion": false
 				}
 			},
-			"minecraft:light_emission": 10,
 			"minecraft:light_dampening": 0,
 			"minecraft:map_color": "#8b94ee",
-			"minecraft:loot": "loot_tables/blocks/lunant.json",
 			"minecraft:random_offset": {
 				"x": {
 					"range": {
@@ -71,9 +66,7 @@
 						],
 						"block_filter": [
 							"bedrock_perfected:grassena",
-							"bedrock_perfected:selensoil",
-							"bedrock_perfected:selestone",
-							"minecraft:grass",
+							"minecraft:short_grass",
 							"minecraft:grass_block",
 							"minecraft:dirt",
 							"minecraft:podzol"

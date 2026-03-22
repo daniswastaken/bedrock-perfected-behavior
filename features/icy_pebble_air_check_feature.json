@@ -1,0 +1,10 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:check_block_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:icy_pebble_air_check_feature"
+        },
+        "checked_block": "minecraft:air",
+        "place_feature": "bedrock_perfected:icy_pebble_variation_feature"
+    }
+}
