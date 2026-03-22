@@ -24,7 +24,7 @@
                             "minecraft:plains"
                         ],
                         "amount": 0.08,
-                        "noise_frequency_scale": 0.5
+                        "noise_frequency_scale": 0.05
                     }
                 ]
             },

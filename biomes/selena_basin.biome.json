@@ -23,7 +23,7 @@
                         "targets": [
                             "minecraft:meadow"
                         ],
-                        "amount": 1.0,
+                        "amount": 0.09,
                         "noise_frequency_scale": 0.05
                     }
                 ]
