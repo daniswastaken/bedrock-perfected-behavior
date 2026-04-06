@@ -4,8 +4,8 @@
 		"name": "Bedrock Perfected 26.4",
 		"description": "Quality of life, new mechanics, new biomes and many more!",
 		"uuid": "8a4c9697-4587-413e-a2ad-bb09745bd263",
-		"version": [26, 4, 0],
-		"min_engine_version": [1, 26, 0]
+		"version": [26, 5, 0],
+		"min_engine_version": [1, 26, 10]
 	},
 	"modules": [
 		{
@@ -13,12 +13,12 @@
 			"language": "javascript",
 			"entry": "scripts/main.js",
 			"uuid": "63aa95d2-bc11-4cfc-b9e7-cb475e9c07ad",
-			"version": [26, 4, 0]
+			"version": [26, 5, 0]
 		},
 		{
 			"type": "data",
 			"uuid": "430af5d4-bc11-4cfc-b9e7-cb475e9c07ad",
-			"version": [26, 4, 0]
+			"version": [26, 5, 0]
 		}
 	],
 	"capabilities": ["pbr"],
@@ -33,11 +33,11 @@
 	"dependencies": [
 		{
 			"uuid": "021db127-35f8-4a5b-85b1-35ef06db0db2",
-			"version": [26, 4, 0]
+			"version": [26, 5, 0]
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "2.5.0"
+			"version": "2.6.0"
 		},
 		{
 			"module_name": "@minecraft/server-ui",
