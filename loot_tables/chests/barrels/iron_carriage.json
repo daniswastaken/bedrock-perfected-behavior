@@ -1,0 +1,40 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_nugget",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 6,
+								"max": 12
+							}
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}
