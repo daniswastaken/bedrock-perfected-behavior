@@ -1,0 +1,33 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:lunant_patch_feature"
+        },
+        "iterations": 100,
+        "x": {
+            "distribution": "gaussian",
+            "extent": [
+                -3,
+                3
+            ]
+        },
+        "y": {
+            "distribution": "gaussian",
+            "extent": [
+                -4,
+                4
+            ]
+        },
+        "z": {
+            "distribution": "gaussian",
+            "extent": [
+                -3,
+                3
+            ]
+        },
+        "coordinate_eval_order": "zyx",
+        "project_input_to_floor": true,
+        "places_feature": "bedrock_perfected:lunant_flower_feature"
+    }
+}

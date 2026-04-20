@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:crops/potato/potato_crops_var1_feature"
 		},
-		"structure_name": "mystructure:potato_crops_var1",
+		"structure_name": "mystructure:crops/potato_crops_var1",
 		"adjustment_radius": 4,
 		"facing_direction": "random",
 		"constraints": {

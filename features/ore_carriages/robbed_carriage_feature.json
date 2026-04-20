@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:ore_carriages/robbed_carriage_feature"
 		},
-		"structure_name": "mystructure:robbed_carriage",
+		"structure_name": "mystructure:carriages/robbed_carriage",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {

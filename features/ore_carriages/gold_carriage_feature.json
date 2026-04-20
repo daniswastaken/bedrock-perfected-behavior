@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:ore_carriages/gold_carriage_feature"
 		},
-		"structure_name": "mystructure:gold_carriage",
+		"structure_name": "mystructure:carriages/gold_carriage",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {

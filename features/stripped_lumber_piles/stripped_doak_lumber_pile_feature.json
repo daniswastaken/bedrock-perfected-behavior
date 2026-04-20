@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:stripped_lumber_piles/stripped_doak_lumber_pile_feature"
 		},
-		"structure_name": "mystructure:sdoak_lp",
+		"structure_name": "mystructure:stripped_lumber_piles/sdoak_lp",
 		"adjustment_radius": 4,
 		"facing_direction": "random",
 		"constraints": {

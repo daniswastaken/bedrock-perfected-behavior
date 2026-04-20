@@ -1,0 +1,12 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:snap_to_surface_feature": {
+        "description": {
+            "identifier": "bedrock_perfected:sunflower_fields_feature"
+        },
+        "feature_to_snap": "bedrock_perfected:sunflower_growing_plant_feature",
+        "surface": "floor",
+        "vertical_search_range": 12,
+        "allow_underwater_placement": false
+    }
+}

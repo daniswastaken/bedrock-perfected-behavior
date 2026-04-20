@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:crops/beetroot/beetroot_crops_feature"
 		},
-		"structure_name": "mystructure:beetroot_crops",
+		"structure_name": "mystructure:crops/beetroot_crops",
 		"adjustment_radius": 4,
 		"facing_direction": "random",
 		"constraints": {

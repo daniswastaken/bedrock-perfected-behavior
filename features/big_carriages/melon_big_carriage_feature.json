@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:big_carriages/melon_big_carriage_feature"
 		},
-		"structure_name": "mystructure:melon_big_carriage",
+		"structure_name": "mystructure:carriages/melon_big_carriage",
 		"adjustment_radius": 16,
 		"facing_direction": "south",
 		"constraints": {

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:lumber_piles/birch_lumber_pile_feature"
 		},
-		"structure_name": "mystructure:birch_lumber_pile",
+		"structure_name": "mystructure:lumber_piles/birch_lumber_pile",
 		"adjustment_radius": 4,
 		"facing_direction": "random",
 		"constraints": {

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "bedrock_perfected:ore_carriages/iron_carriage_feature"
 		},
-		"structure_name": "mystructure:iron_carriage",
+		"structure_name": "mystructure:carriages/iron_carriage",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {
